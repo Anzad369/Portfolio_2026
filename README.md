@@ -1,37 +1,82 @@
-# Mohammed Anzad – Personal Portfolio
+# Mohammed Anzad P A — Portfolio 2026
 
-Personal portfolio website showcasing my projects, skills, and experience as a Frontend Developer & AI Enthusiast.
+A modern personal portfolio built to showcase my work, skills, and journey as a software developer.
 
-**Live Demo:** [my-portfolio-eight-ashen-92.vercel.app](https://my-portfolio-eight-ashen-92.vercel.app)
+**Live Site:** [https://anzadportfolio.vercel.app](https://anzadportfolio.vercel.app)
 
 ---
 
-## Overview
+## About
 
-This is my personal portfolio built to present my work, technical skills, education, and experience in a clean and professional way. It highlights projects involving React, Next.js, AI integrations, and blockchain.
+I'm **Mohammed Anzad P A**, an Electronics & Computer Engineering graduate (2025) from St. Joseph's College of Engineering and Technology, Kottayam.
+
+I enjoy building useful digital products — combining engineering thinking with clean, human-first design. Currently learning full-stack development at KodNest while exploring modern web technologies.
+
+---
 
 ## Features
 
-- Clean and modern UI
-- Project showcase with filtering
-- Skills section with visual indicators
-- Education and experience timeline
-- Contact form
-- Fully responsive design
+- Clean and minimal design with strong visual hierarchy
+- Smooth scrolling single-page layout
+- Project showcase with clear descriptions and tech stacks
+- Education, experience, and recognition sections
+- Fully responsive across devices
+- Dark/light-friendly color scheme
+- Fast performance with Next.js
+
+---
 
 ## Tech Stack
 
-- **Framework:** Next.js (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Deployment:** Vercel
+---
 
-## Getting Started
+| Category                                         | Technology              |
+| ------------------------------------------------ | ----------------------- |
+| Framework                                        | Next.js 16 (App Router) |
+| Language                                         | TypeScript              |
+| Styling                                          | Tailwind CSS 4          |
+| UI Components                                    | shadcn/ui               |
+| Icons                                            | Lucide React            |
+| Analytics                                        | Vercel Analytics        |
+| Deployment                                       | Vercel                  |
+| Package Manager                                  | pnpm                    |
+| **********************\_\_********************** |
+
+## Project Structure
+
+├── app/
+│ ├── globals.css
+│ ├── layout.tsx
+│ └── page.tsx # Main portfolio page
+├── components/ui/ # shadcn components
+├── lib/
+├── public/ # Assets & resume
+└── ...
+
+### Prerequisites
+
+- Node.js 18 or higher
+- pnpm (recommended)
+
+### Installation
 
 ```bash
-git clone https://github.com/Anzad369/my_portfolio.git
-cd my_portfolio
+# Clone the repository
+git clone https://github.com/Anzad369/Portfolio_2026.git
 
-npm install
-npm run dev
-"# Portfolio_2026" 
+# Navigate into the project
+cd Portfolio_2026
+
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+Open [localhost](http://localhost:3000/) to view the site.
+
+Available Scripts
+Bash
+pnpm dev      # Start development server
+pnpm build    # Create production build
+pnpm start    # Run production server
+```
